@@ -29,10 +29,10 @@ while True:
         show_menu()
 
         choice = input("Enter your choice : ")
-        num1 = float(input("Enter the first number  : "))
-        num2 = float(input("Enter the second number : "))
         
         if (choice == "1"):
+            num1 = float(input("Enter the first number  : "))
+            num2 = float(input("Enter the second number : "))
             print(f"The Addition is {add(num1,num2)}")
 
         elif(choice == "2"):
@@ -55,6 +55,7 @@ while True:
 
         else:
             print("invalid choice!")
+
 
 
 
